@@ -11,17 +11,17 @@ const Navbar = () => {
 
   return (
     <div className='fixed w-full bg-white z-10 shadow-sm'>
-      <div className='py-4 border-b-[1px]'>
+      <div className='py-1 border-b-[1px]'>
         <Container>
           <div className='flex flex-row  items-center justify-between gap-3 md:gap-0'>
             {/* Logo */}
             <Link to='/'>
               <img
                 // className='hidden md:block'
-                src='https://i.ibb.co/4ZXzmq5/logo.png'
+                src='https://i.postimg.cc/ncv49wTw/nest-finder-1.png'
                 alt='logo'
-                width='100'
-                height='100'
+                width='120'
+                height=''
               />
             </Link>
             {/* Dropdown Menu */}
