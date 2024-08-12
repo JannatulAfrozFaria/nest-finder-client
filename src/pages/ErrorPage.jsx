@@ -8,7 +8,7 @@ const ErrorPage = () => {
     <section className='bg-white '>
       <div className='container flex items-center min-h-screen px-6 py-12 mx-auto'>
         <div className='flex flex-col items-center max-w-sm mx-auto text-center'>
-          <p className='p-3 text-sm font-medium text-rose-500 rounded-full bg-blue-50 '>
+          <p className='p-3 text-sm font-medium text-orange-500 rounded-full bg-blue-50 '>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               fill='none'
@@ -25,9 +25,9 @@ const ErrorPage = () => {
             </svg>
           </p>
           <h1 className='mt-3 text-2xl font-semibold text-gray-800  md:text-3xl'>
-            Error!!!
+            There was some error!!!
           </h1>
-          <p className='mt-4 text-gray-500 '>For help, Navigate to:</p>
+          <p className='mt-4 text-gray-500 '>For help, You can opt for :</p>
 
           <div className='flex items-center w-full mt-6 gap-x-3 shrink-0 sm:w-auto'>
             <button
@@ -40,7 +40,7 @@ const ErrorPage = () => {
                 viewBox='0 0 24 24'
                 strokeWidth='1.5'
                 stroke='currentColor'
-                className='w-5 h-5 rtl:rotate-180 text-rose-500'
+                className='w-5 h-5 rtl:rotate-180 text-orange-500'
               >
                 <path
                   strokeLinecap='round'
@@ -49,10 +49,10 @@ const ErrorPage = () => {
                 />
               </svg>
 
-              <span>Go back</span>
+              <span>Previous Page</span>
             </button>
 
-            <Button label={'Take Me Home'} onClick={() => navigate('/')} />
+            <Button label={'Go to Home'} onClick={() => navigate('/')} />
           </div>
         </div>
       </div>
